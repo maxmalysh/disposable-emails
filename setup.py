@@ -6,8 +6,8 @@ setup(
     description='Weed out disposable email providers with ease',
     url='https://github.com/maxmalysh/disposable-emails',
     author='Max Malysh',
-    author_email='hello@maxmalysh.com',
+    author_email='github@maxmalysh.com',
     license='MIT',
     packages=['disposable_emails'],
-    zip_safe=False
+    include_package_data=True,
 )

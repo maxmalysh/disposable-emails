@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='disposable-emails',
@@ -8,6 +8,6 @@ setup(
     author='Max Malysh',
     author_email='github@maxmalysh.com',
     license='MIT',
-    packages=['disposable_emails'],
+    packages=find_packages(),
     include_package_data=True,
 )

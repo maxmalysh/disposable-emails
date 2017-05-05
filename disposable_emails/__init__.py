@@ -9,8 +9,12 @@ def read_blacklist():
         return {line.rstrip() for line in f.readlines()}
 
 
+def extract_domain(email: str) -> str:
+    return email.rsplit('@')[-1]
+
+
 def is_disposable_email(email: str) -> bool:
-    return is_disposable_domain(email.rsplit('@')[-1])
+    return is_disposable_domain(extract_domain(email))
 
 
 def is_disposable_domain(domain: str) -> bool:

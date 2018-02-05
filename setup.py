@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='disposable-emails',
-    version='0.9.1',
+    version='0.9.2',
     description='Weed out disposable email providers with ease',
     url='https://github.com/maxmalysh/disposable-emails',
     author='Max Malysh',

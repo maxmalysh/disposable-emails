@@ -9,6 +9,12 @@ def read_blacklist():
         return {line.rstrip() for line in f.readlines()}
 
 
+def download_blacklist():
+    import requests
+    response = requests.get("https://raw.githubusercontent.com/andreis/disposable-email-domains/master/domains.txt")
+    return response.text.split('\n')
+
+
 def extract_domain(email: str) -> str:
     return email.rsplit('@')[-1]
 

@@ -3,9 +3,9 @@ Weed out disposable email providers with ease 🚀
 
 ## Installation
 
-I will upload this package to PyPi in the near future. As for now:
+You can install this package using PyPI:
 
-    pip3 install git+https://github.com/maxmalysh/disposable-emails
+    pip3 install disposable-emails
 
 There are no dependencies. You don't need Django, Flask or any third-party API.
 
@@ -50,7 +50,7 @@ And with models:
 
 ## Credits
 
-This package uses **[disposable](https://github.com/andreis/disposable/)** by @andreis as a source of disposable email services. It is imported as a submodule, so you can expect `disposable_emails` to have as fresh disposable database as possible.
+This package uses **[disposable](https://github.com/andreis/disposable-email-domains/)** by @andreis as a source of disposable email services.
 
 ## Contributions
 

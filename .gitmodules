@@ -1,3 +1,0 @@
-[submodule "disposable_emails/data"]
-	path = disposable_emails/data
-	url = https://github.com/maxmalysh/disposable

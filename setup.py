@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setup(
     name='disposable-emails',
-    version='1.0.1',
+    version='1.1.0',
     author='Max Malysh',
     author_email='github@maxmalysh.com',
     url='https://github.com/maxmalysh/disposable-emails',
